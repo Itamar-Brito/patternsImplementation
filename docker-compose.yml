@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: design_patterns
+    ports:
+      - "8080:80"
+    networks:
+      - my_network
+    volumes:
+      - ./:/var/www/html
+    tty: true
+
+networks:
+  my_network:
+    driver: bridge
