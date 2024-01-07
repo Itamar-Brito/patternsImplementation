@@ -21,6 +21,13 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
     );
 
     public static $classMap = array (
+        'App\\ObjectPool\\MySqlConnectionPool' => __DIR__ . '/../..' . '/src/ObjectPool/MySqlConnectionPool.php',
+        'App\\ObjectPool\\ObjectPool' => __DIR__ . '/../..' . '/src/ObjectPool/ObjectPool.php',
+        'App\\Specification\\AndSpecification' => __DIR__ . '/../..' . '/src/Specification/AndSpecification.php',
+        'App\\Specification\\Contracts\\Specification' => __DIR__ . '/../..' . '/src/Specification/Contracts/Specification.php',
+        'App\\Specification\\Product' => __DIR__ . '/../..' . '/src/Specification/Product.php',
+        'App\\Specification\\Specifications\\PriceSpecification' => __DIR__ . '/../..' . '/src/Specification/Specifications/PriceSpecification.php',
+        'App\\Specification\\Specifications\\SizeSpecification' => __DIR__ . '/../..' . '/src/Specification/Specifications/SizeSpecification.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
