@@ -13,5 +13,10 @@ return array(
     'App\\Specification\\Product' => $baseDir . '/src/Specification/Product.php',
     'App\\Specification\\Specifications\\PriceSpecification' => $baseDir . '/src/Specification/Specifications/PriceSpecification.php',
     'App\\Specification\\Specifications\\SizeSpecification' => $baseDir . '/src/Specification/Specifications/SizeSpecification.php',
+    'App\\Strategy\\CalculadoraDeImpostos' => $baseDir . '/src/Strategy/CalculadoraDeImpostos.php',
+    'App\\Strategy\\Contracts\\Imposto' => $baseDir . '/src/Strategy/Contracts/Imposto.php',
+    'App\\Strategy\\Impostos\\Icms' => $baseDir . '/src/Strategy/Impostos/Icms.php',
+    'App\\Strategy\\Impostos\\Iss' => $baseDir . '/src/Strategy/Impostos/Iss.php',
+    'App\\Strategy\\Orcamento' => $baseDir . '/src/Strategy/Orcamento.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

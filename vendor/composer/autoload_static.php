@@ -28,6 +28,11 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         'App\\Specification\\Product' => __DIR__ . '/../..' . '/src/Specification/Product.php',
         'App\\Specification\\Specifications\\PriceSpecification' => __DIR__ . '/../..' . '/src/Specification/Specifications/PriceSpecification.php',
         'App\\Specification\\Specifications\\SizeSpecification' => __DIR__ . '/../..' . '/src/Specification/Specifications/SizeSpecification.php',
+        'App\\Strategy\\CalculadoraDeImpostos' => __DIR__ . '/../..' . '/src/Strategy/CalculadoraDeImpostos.php',
+        'App\\Strategy\\Contracts\\Imposto' => __DIR__ . '/../..' . '/src/Strategy/Contracts/Imposto.php',
+        'App\\Strategy\\Impostos\\Icms' => __DIR__ . '/../..' . '/src/Strategy/Impostos/Icms.php',
+        'App\\Strategy\\Impostos\\Iss' => __DIR__ . '/../..' . '/src/Strategy/Impostos/Iss.php',
+        'App\\Strategy\\Orcamento' => __DIR__ . '/../..' . '/src/Strategy/Orcamento.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
