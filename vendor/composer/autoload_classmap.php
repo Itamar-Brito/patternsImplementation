@@ -6,6 +6,13 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\ChainOfResponsibility\\CalculadoraDeDescontos' => $baseDir . '/src/ChainOfResponsibility/CalculadoraDeDescontos.php',
+    'App\\ChainOfResponsibility\\Descontos\\AbstractDesconto' => $baseDir . '/src/ChainOfResponsibility/Descontos/AbstractDesconto.php',
+    'App\\ChainOfResponsibility\\Descontos\\DescontoMaisDe500reais' => $baseDir . '/src/ChainOfResponsibility/Descontos/DescontoMaisDe500reais.php',
+    'App\\ChainOfResponsibility\\Descontos\\DescontoMaisDe5Itens' => $baseDir . '/src/ChainOfResponsibility/Descontos/DescontoMaisDe5Itens.php',
+    'App\\ChainOfResponsibility\\Descontos\\SemDesconto' => $baseDir . '/src/ChainOfResponsibility/Descontos/SemDesconto.php',
+    'App\\ChainOfResponsibility\\Orcamento' => $baseDir . '/src/ChainOfResponsibility/Orcamento.php',
+    'App\\ChainOfResponsibility\\ProblemCalculateDescontos' => $baseDir . '/src/ChainOfResponsibility/ProblemCalculateDescontos.php',
     'App\\ObjectPool\\MySqlConnectionPool' => $baseDir . '/src/ObjectPool/MySqlConnectionPool.php',
     'App\\ObjectPool\\ObjectPool' => $baseDir . '/src/ObjectPool/ObjectPool.php',
     'App\\Specification\\AndSpecification' => $baseDir . '/src/Specification/AndSpecification.php',

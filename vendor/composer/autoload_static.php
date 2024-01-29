@@ -21,6 +21,13 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
     );
 
     public static $classMap = array (
+        'App\\ChainOfResponsibility\\CalculadoraDeDescontos' => __DIR__ . '/../..' . '/src/ChainOfResponsibility/CalculadoraDeDescontos.php',
+        'App\\ChainOfResponsibility\\Descontos\\AbstractDesconto' => __DIR__ . '/../..' . '/src/ChainOfResponsibility/Descontos/AbstractDesconto.php',
+        'App\\ChainOfResponsibility\\Descontos\\DescontoMaisDe500reais' => __DIR__ . '/../..' . '/src/ChainOfResponsibility/Descontos/DescontoMaisDe500reais.php',
+        'App\\ChainOfResponsibility\\Descontos\\DescontoMaisDe5Itens' => __DIR__ . '/../..' . '/src/ChainOfResponsibility/Descontos/DescontoMaisDe5Itens.php',
+        'App\\ChainOfResponsibility\\Descontos\\SemDesconto' => __DIR__ . '/../..' . '/src/ChainOfResponsibility/Descontos/SemDesconto.php',
+        'App\\ChainOfResponsibility\\Orcamento' => __DIR__ . '/../..' . '/src/ChainOfResponsibility/Orcamento.php',
+        'App\\ChainOfResponsibility\\ProblemCalculateDescontos' => __DIR__ . '/../..' . '/src/ChainOfResponsibility/ProblemCalculateDescontos.php',
         'App\\ObjectPool\\MySqlConnectionPool' => __DIR__ . '/../..' . '/src/ObjectPool/MySqlConnectionPool.php',
         'App\\ObjectPool\\ObjectPool' => __DIR__ . '/../..' . '/src/ObjectPool/ObjectPool.php',
         'App\\Specification\\AndSpecification' => __DIR__ . '/../..' . '/src/Specification/AndSpecification.php',
